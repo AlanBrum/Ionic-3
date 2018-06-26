@@ -1,0 +1,9 @@
+page-feed { // formatando o estilo do texto da clsse feed title, que é o nome da pessoa
+    h2.feed_title {
+        color: blue;
+        font-weight: bold;
+    }
+    p.feed_date {
+        color:  green;
+    }
+}

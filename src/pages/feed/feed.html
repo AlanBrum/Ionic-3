@@ -1,0 +1,98 @@
+<!--
+  Generated template for the FeedPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Feed</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <!-- card adicionado a página, que é a "postagem" -->
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/mysecondphoto.jpg">
+      </ion-avatar>
+      <h2 class="feed_title"> {{ nome_usuario }}</h2>
+
+      <p class="feed_date">18, Junho, 2018</p>
+    </ion-item>
+
+    <img src="assets/imgs/ionic3.png">
+
+    <ion-card-content>
+      <p>Estou aprendendo a desenvolver um aplicativo com Ionic framework!</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>23 Curtidas</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>9 Comentários</div>
+        </button>
+      </ion-col>
+      <ion-col center text-center>
+        <ion-note>
+          1 hora atrás
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/imgs/paulo.jpg">
+      </ion-avatar>
+      <h2 class="feed_title">Paulo</h2>
+      <p class="feed_date">12, Junho, 2018</p>
+    </ion-item>
+
+    <img src="assets/imgs/developer.jpg">
+
+    <ion-card-content>
+      <p>Vamos desenvolver esse aplicativo!</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button color="primary" clear small icon-start>
+          <ion-icon name='thumbs-up'></ion-icon>
+          30 Curtidas
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button color="primary" clear small icon-start>
+          <ion-icon name='text'></ion-icon>
+          64 Comentários
+        </button>
+      </ion-col>
+      <ion-col align-self-center text-center>
+        <ion-note>
+          30 minutos atrás
+        </ion-note>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+
+
+
+</ion-content>
